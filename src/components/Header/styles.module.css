@@ -1,0 +1,64 @@
+.header_body {
+  height: 90px;
+  background-color: var(--light-background);
+  box-shadow: 1px 1px var(--golden);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.dark {
+  background-color: var(--dark-background);
+  color: #fff;
+}
+
+.menu_button_container {
+  margin-left: 1em;
+}
+
+.menu_button {
+  font-size: 2.5em;
+}
+
+.container_logo {
+  margin: 1em auto;
+}
+
+.services_list_container {
+  width: 25em;
+}
+
+.nav_link_list {
+  width: 100%;
+}
+
+.nav_item {
+  font-size: 1.4em;
+  transition: all 0.5s;
+}
+
+.nav_item:hover {
+  color: var(--golden);
+  cursor: pointer;
+}
+
+.options_container {
+  margin-right: 2em;
+}
+
+.language_container {
+  margin-right: 1em;
+}
+
+.language_selector {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 560px) {
+  .toggle_button {
+    font-size: 0.8em;
+  }
+
+  .menu_button {
+    font-size: 1.5em;
+  }
+}

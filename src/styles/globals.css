@@ -1,0 +1,30 @@
+:root {
+  /* --------- PALETA DE CORES -----------*/
+
+  --light-background: #e4e9f7;
+  --dark-background: rgb(32, 44, 51);
+  --blue-sky: rgb(119, 169, 240);
+  --golden: #cba445;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}

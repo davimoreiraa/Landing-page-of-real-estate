@@ -1,0 +1,103 @@
+.home_body {
+  padding-top: 90px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  background-color: var(--light-background);
+}
+
+.cover_page_container {
+  position: relative;
+}
+
+.image_container {
+  position: relative;
+  height: 35em;
+  width: 100%;
+}
+
+.title {
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 3em;
+}
+
+.container {
+  background-color: var(--blue-sky);
+  padding: 2em;
+}
+
+.dark {
+  background-color: var(--dark-background);
+  color: #fff;
+}
+
+.content {
+  text-shadow: 1px 1px black;
+  font-size: 2em;
+  transition: all 0.5s;
+}
+
+@media only screen and (max-width: 925px) {
+  .title {
+    font-size: 2.3em;
+  }
+
+  .content {
+    font-size: 1.8em;
+  }
+}
+
+@media only screen and (max-width: 505px) {
+  .title {
+    font-size: 1.9em;
+  }
+
+  .content {
+    font-size: 1.3em;
+  }
+}
+
+.cards_container {
+  padding: 1em;
+  background: linear-gradient(var(--blue-sky), var(--golden));
+}
+
+.dark_card_container {
+  background: linear-gradient(var(--dark-background), var(--golden));
+  color: #fff;
+  text-shadow: 1px 1px black;
+}
+
+.card {
+  padding: 1em;
+  margin-bottom: 1em;
+  transition: all 0.5s;
+}
+
+.footer {
+  background-color: var(--golden);
+}
+
+.container_footer {
+  width: 50%;
+}
+
+.social_medias_container {
+  margin-bottom: 1.5em;
+}
+
+.social_media_icon:hover {
+  cursor: pointer;
+}
+
+.footer_link {
+  font-size: 1.5em;
+  margin-left: 2em;
+}
+
+.footer_link_politics {
+  font-size: 1em;
+  margin-left: 2.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}

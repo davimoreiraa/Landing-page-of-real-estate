@@ -1,0 +1,43 @@
+.sidebar_body {
+  height: 100%;
+  padding: 1.2em;
+  background-color: var(--light-background);
+  z-index: 10000;
+  box-shadow: 1px 1px var(--golden);
+  width: auto;
+}
+
+.dark {
+  background-color: var(--dark-background);
+  color: #fff !important;
+}
+
+.disable {
+  width: 0;
+  visibility: hidden;
+}
+
+.close_icon {
+  font-size: 1.5em;
+}
+
+.line {
+  height: 0.3px;
+  background-color: var(--golden);
+  width: 100%;
+  margin: 3em 0;
+}
+
+.nav_item {
+  font-size: 1.7em;
+  margin-bottom: 1em;
+  padding: 8px;
+}
+
+.nav_item:active {
+  background-color: rgb(195, 199, 201);
+}
+
+.nav_icon {
+  margin-right: 1em;
+}
