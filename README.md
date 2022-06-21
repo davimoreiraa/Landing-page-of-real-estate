@@ -1,2 +1,11 @@
-<h5> Landing Page made with React, NextJs and ReactBootstrap. </h5>
-<p> You can see it here: <a href='https://lanfing-page-of-real-estate.vercel.app/'> https://lanfing-page-of-real-estate.vercel.app/ </p>
+<h1>Real estate Webpage</h1>
+<h2>Description:</h2>
+<p>
+  Webpage of a fictitious real estate made to gain experience and test my own
+  habilities.
+</p>
+<h2>How to run:</h2>
+<p>
+  npm install e npm run dev 
+  porta = http://localhost:3000
+</p>
